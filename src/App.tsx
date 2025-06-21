@@ -38,7 +38,7 @@ interface InterviewResults {
 
 type AppState = 'domain-selection' | 'interview' | 'results';
 
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = 'https://newaiversion-1.onrender.com/api';
 
 function App() {
   const [appState, setAppState] = useState<AppState>('domain-selection');
